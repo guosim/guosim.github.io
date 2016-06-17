@@ -1,0 +1,37 @@
+doctype html
+html(lang="en")
+	head
+		title Henry Wu
+		meta(charset="utf-8")
+		meta(name="description", content="Portfolio Site")
+		meta(name="author", content="Henry Wu")
+		meta(name="viewport", content="width=device-width, initial-scale=1")
+		link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css")
+		link(rel="stylesheet", href="style.css")
+		link(href="https://fonts.googleapis.com/css?family=Jaldi" rel="stylesheet")
+		script(src="jquery-3.0.0.min.js")
+		script(src="functions.js")
+	body
+		.container-fluid
+			.row
+				.col-md-5.greeting
+					p Hey there, I'm Henry. I am a self-taught web developer living in California.
+					ul.list-inline
+						li: a(href="" id="resume") Resume
+						li: a(href="" id="github") Github
+						li: a(href="" id="email") E-mail
+				.col-md-7.projects
+					.row
+						figure.col-md-6
+							image(src="/images/counterstrat.png")
+							figcaption <strong>CounterStrat</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet vulputate nisl nec commodo. Ut porttitor mollis eleifend. Curabitur!!
+						figure.col-md-6
+							image(src="/images/microcosm.png")
+							figcaption <strong>Microcosm</strong><br> a showcase of parallax
+					.row
+						figure.col-md-6
+							image(src="/images/poolwhippros.png")
+							figcaption <strong>PoolWhipPros</strong><br>hi
+						figure.col-md-6
+							image(src="/images/tarotperson.png")
+							figcaption <strong>Tarot Person</strong><br>lorem
