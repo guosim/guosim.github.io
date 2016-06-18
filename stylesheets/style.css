@@ -1,12 +1,20 @@
 .greeting {
-  padding: 10% 5% 0% 13%;
-  font: 36px 'Jaldi', sans-serif;
+  padding: 5% 5% 0% 13%;
+  font: 32px 'Jaldi', sans-serif;
   color: #93AAAB;
   line-height: 2em;
 }
 
 .greeting ::selection {
   background-color: #E0F7F8;
+}
+
+.greeting .thick {
+  color: #6D8485;
+}
+
+.greeting h1 {
+  font: 44px 'Jaldi', sans-serif;
 }
 
 .greeting a {
