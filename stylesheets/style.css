@@ -96,3 +96,7 @@
 #email:hover {
   color: #93AAAB;
 }
+
+.glyphicon-user {
+  font-size: 28px;
+}

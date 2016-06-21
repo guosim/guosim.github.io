@@ -14,14 +14,15 @@ html(lang="en")
 	body
 		.container-fluid
 			.row
-				.col-md-5.greeting
-					h1.thick Henry Wu
+				header.col-md-5.greeting
+					h1.thick Henry Wu <span class="glyphicon glyphicon-user"></span>
+
 					p Hi there, I am a self-taught <span class="thick">web developer</span> living in <span class="thick">California</span>. Currently, I am working through Udacity's Full Stack Web Developer Nanodegree.
 					ul.list-inline
 						li: a(href="Henry_Wu_Resume.pdf" target="_blank" id="resume") Resume
 						li: a(href="https://github.com/guosim" id="github") Github
 						li: a(href="mailto:guosims@yahoo.com" id="email") E-mail
-				.col-md-7.projects
+				main.col-md-7.projects
 					.row
 						figure.col-md-6: a(href="http://guosim.github.io/CounterStrat/")
 							img.img-responsive(src="images/counterstrat.png")
