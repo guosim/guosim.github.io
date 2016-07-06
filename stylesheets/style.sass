@@ -17,7 +17,7 @@
 			color: #93AAAB
 			transition: all 0.3s ease-in-out
 .projects
-	padding-top: 5%
+	padding: 5% 0% 0% 10%
 	figure
 		background-color: white
 		width: calc(15% + 150px)
@@ -31,10 +31,14 @@
 		transform: translateX(-15px)
 		transition: all 0.3s ease-in-out
 		cursor: pointer
+		box-shadow: 2px 2px 2px #d3d3d3
+		::selection
+			background-color: #E0F7F8
 
 		img
 			transform: scale(.8)
 			transition: all 0.2s ease-in-out
+
 
 		figcaption
 			position: absolute
@@ -43,7 +47,7 @@
 			color: white
 			padding: 2px 8px
 			transition: all 0.3s ease-in-out
-			
+	
 		&.is-showing
 			opacity: 1
 			transform: translateX(0px)

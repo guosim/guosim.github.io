@@ -28,7 +28,7 @@
 }
 
 .projects {
-  padding-top: 5%;
+  padding: 5% 0% 0% 10%;
 }
 
 .projects figure {
@@ -44,6 +44,11 @@
   transform: translateX(-15px);
   transition: all 0.3s ease-in-out;
   cursor: pointer;
+  box-shadow: 2px 2px 2px #d3d3d3;
+}
+
+.projects figure ::selection {
+  background-color: #E0F7F8;
 }
 
 .projects figure img {
